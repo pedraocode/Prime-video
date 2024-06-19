@@ -1,0 +1,239 @@
+.lupa {
+    max-height: 48px;
+    max-width: 38px;
+}
+
+.container-box {
+    background-color: rgb(0, 0, 0); 
+    color: white; 
+    text-align: center; 
+    margin-bottom: 0; 
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-bottom: 0; 
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding-right: 370px;
+    color: #aaa;
+}
+
+.header-item {
+    font-size: 1.2em; 
+    font-weight: bold;
+    margin: 0; 
+    padding: 0; 
+}
+
+.profile {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.category {
+    margin-right: 20px; 
+}
+
+img {
+    max-width: 148.66px;
+    max-height: 102.59px;
+}
+
+.ultimas {
+    max-width: 200px; 
+    max-height: 200px; 
+    margin-bottom: 10px; 
+}
+
+.principal {
+    width: 100%; 
+    height: 700px; 
+    position: relative; 
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.container-box2 {
+    background-color: #222222; 
+    color: #8197a4;
+    text-align: center; 
+    --_link-color: #79b8f3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.horizontal-container2 {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    flex-direction: row; 
+}
+
+.container-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.img-container {
+    width: 30%; 
+    text-align: center;
+}
+
+.ultimas {
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom: 10px; 
+}
+
+.img-container h1,
+.img-container h2,
+span{
+    margin: 0; 
+}
+
+header {
+    background-image: linear-gradient(to right, black 40%, transparent 58%), url(https://m.media-amazon.com/images/G/32/digital/video/merch/Other/BRND_MTH24_PVMagnetLeft_1440x675_POST_Final_noLocale_GSS00003080.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    margin-top: -30px; 
+    padding-left: 50px;
+    max-height: 2000px;
+    padding-bottom: 50px;
+}
+
+* {
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif;
+}
+
+button {
+    background-color: #0F79AF;
+    border-radius: 4px;
+    width: 250px;
+    height: 47px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0f79af;
+}
+
+.text-and-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-auto-rows: 1fr; 
+    gap: 10px; 
+    max-width: 60%;
+}
+
+.s2 {
+    margin-top: 13px;
+    margin-right: -8px;
+    margin-left: -7.6px;
+    padding-bottom: 26%;
+    padding-right: 50px; 
+    padding-top: 20px; 
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/32/digital/video/merch/2023/Other/MLP_BG_left_1440x675.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: white;
+}
+
+.dois {
+    padding-left: 1000px;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.prime {
+    padding-left: 200px;
+}
+
+.ceta {
+    max-width: 20px;
+}
+
+.lups {
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.movie {
+    padding-top: 40px;
+}
+
+.lines-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px; 
+    padding-left: 5px;
+}
+
+.line {
+    border-top: 1px solid #ffffff;
+    width: 105px;
+}
+h3 {
+    margin: 0 10px; 
+    font-size: 1.2em; 
+    color: #ffffff; 
+}
+p {
+    font-size: 22px;
+}
+.or {
+    font-size: 15px;
+}
